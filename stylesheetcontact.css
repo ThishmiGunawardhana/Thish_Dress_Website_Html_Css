@@ -1,0 +1,254 @@
+/* navigation */
+nav {
+    background-color:rgb(215 204 204 / 82%);
+    display: flex; 
+    flex-direction: row;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 96vw;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 5rem;
+    font-size: 20px;
+    color: rgb(17, 18, 19);   
+}
+a {
+   text-decoration: none;
+}
+
+.button{
+    border: none;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: rgb(241, 44, 44);
+}
+
+.lg{
+    border-radius: 50px;
+}
+/* body */
+#contactMePage{
+    position: absolute;
+    width: 99vw;
+    height: 590px;
+    background-image: url(profile/11.jpg);
+    background-size: cover;
+}
+
+.cm{
+    left: 100px;
+}
+
+.dp{
+    right: 500px;
+    border-radius: 50px;
+}
+
+.dp:hover{
+	transform:scale(1.5);
+}
+
+#contactMePage>section:nth-child(1){
+    position: relative;
+    width: 335px;
+    height: 70px;
+    top: -19px;
+    left: 39%;
+
+}
+
+#contactMePage>section:nth-child(1)>h3{
+    position: relative;
+    margin: 0;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 20px;
+    color: #FF3366;
+}
+#contactMePage>section:nth-child(1)>h1{
+    position: relative;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #3a595f;
+    bottom: -57px;
+}
+
+#contactMePage>section:nth-child(2){
+    position: relative;
+    width: 1020px;
+    height: 389px;
+    top: 51px;
+    left: 41px;
+}
+
+#contactMePage>section:nth-child(2)>form{
+    background: #18131894;
+    border-radius: 30px;
+    width: 100%;
+    height: 98%;
+}
+#contactMePage>section:nth-child(2)>form>fieldset{
+    border: 0px;
+}
+#contactMePage>section:nth-child(2)>form>fieldset>input{
+    border-radius: 10px;
+}
+#contactMePage>section:nth-child(2)>form>fieldset>input::placeholder{
+    position: relative;
+    font-family: "Open Sans Semibold";
+    font-size: 16px;
+    left: 10px;
+}
+
+#contactMePage>section:nth-child(2)>form>fieldset>input:nth-child(1){
+    position: absolute;
+    width: 250px;
+    height: 28px;
+    top: 35px;
+    left: 35px;
+}
+#contactMePage>section:nth-child(2)>form>fieldset>input:nth-child(2){
+    position: absolute;
+    width: 280px;
+    height: 28px;
+    top: 35px;
+    left: 375px;
+}
+#contactMePage>section:nth-child(2)>form>fieldset>input:nth-child(3){
+    position: absolute;
+    width: 620px;
+    height: 41px;
+    top: 90px;
+    right: 359px;
+}
+#contactMePage>section:nth-child(2)>form>fieldset>input:nth-child(4){
+    position: absolute;
+    width: 620px;
+    height: 150px;
+    top: 165px;
+    left: 34px;
+}
+
+#contactMePage>section:nth-child(2)>form>fieldset>button{
+    position: absolute;
+    background: #FF3366;
+    bottom: 24px;
+    left: 35px;
+    border-color: #FF3366;
+    width: 135px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #ECF0F1;
+}
+#contactMePage>section:nth-child(2)>aside:nth-child(2){
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    height: 240px;
+    top: 40px;
+    right: 240px;
+}
+#contactMePage>section:nth-child(2)>aside:nth-child(2)>div{
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+}
+#contactMePage>section:nth-child(2)>aside:nth-child(2)>div:nth-child(1){
+    background-image: url("./Logo/call.png");
+}
+#contactMePage>section:nth-child(2)>aside:nth-child(2)>div:nth-child(2){
+    background-image: url("./Logo/email.png");
+}
+#contactMePage>section:nth-child(2)>aside:nth-child(2)>div:nth-child(3){
+    background-image: url("./Logo/location.png");
+}
+
+#contactMePage>section:nth-child(2)>div>h1{
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 20px;
+    color: #ECF0F1;
+    margin: 0;
+    padding: 0;
+    margin-left: 44px;
+}
+#contactMePage>section:nth-child(2)>div:nth-child(5)>h1{
+    margin-left: 94px;
+}
+#contactMePage>section:nth-child(2)>div>h3,#contactMePage>section:nth-child(2)>div>address>h3{
+    font-family: "Open Sans Semibold";
+    font-size: 14px;
+    color: #ECF0F1;
+    margin-top: 8px;
+    padding: 0;
+}
+#contactMePage>section:nth-child(2)>div:nth-child(3)>h3{
+    margin-left: 36px;
+}
+#contactMePage>section:nth-child(2)>div:nth-child(4)>h3{
+    margin-left: 45px;
+}
+#contactMePage>section:nth-child(2)>div:nth-child(5)>h3{
+    margin-left: 95px;
+}
+
+#contactMePage>section:nth-child(2)>div:nth-child(3){
+    position: absolute;
+    width: 160px;
+    height: 100px;
+    top: 40px;
+    right: 124px;
+}
+#contactMePage>section:nth-child(2)>div:nth-child(4){
+    position: absolute;
+    width: 160px;
+    height: 100px;
+    top: 128px;
+    right: 132px;
+}
+#contactMePage>section:nth-child(2)>div:nth-child(5){
+    position: absolute;
+    width: 160px;
+    height: 100px;
+    top: 215px;
+    right: 178px;
+}
+#contactMePage>section:nth-child(2)>div>address>h3{
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+#contactMePage>section:nth-child(3){
+    position: absolute;
+    display: flex;
+    width: 107px;
+    flex-direction: column;
+    height: 376px;
+    top: 112px;
+    right: 22%;
+    justify-content: space-between;
+}
+#contactMePage>section:nth-child(3)>div{
+    width: 100px;
+    height: 65px;
+   
+}
+img {
+    border-style: none;
+    height: 74px;
+}
